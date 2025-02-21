@@ -4,6 +4,7 @@ import json
 
 # MongoDB connection
 MONGO_URI = "mongodb+srv://tejaskumbhar1503:tejas2004@cluster0.csmz1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0v"  # Change this if needed
+
 client = MongoClient(MONGO_URI)
 
 # Fetch all databases
